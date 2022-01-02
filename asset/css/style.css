@@ -1,0 +1,108 @@
+
+body{
+    background-color: #333 !important;
+    color :#eee !important;
+}
+
+.mt-10{
+    margin-top:10px;
+}
+.tac{text-align:center !important;}
+
+a{
+    color:#fff63b  !important;
+    text-decoration: none !important;
+}
+
+
+a:hover{
+    color:#3bb3ff  !important;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.black{color:#222 !important;}
+
+#user_submenu{
+    margin-top:4px;
+    display: none;
+    border-radius: 10px;
+    position: absolute;
+    list-style: none;
+    background-color: #563980;
+    padding:0;
+    left:60%;
+    width:50%;
+ }
+
+#user_submenu a {
+    color : #fff !important;
+}
+
+.user_info{
+	position : relative;
+	font-size:12px;
+	bottom:5px;
+	box-shadow:0 0 10px #222;
+	opacity: 1;
+    display: block;
+	background-color:#000;
+	color:#fff;
+	border-radius:30px;
+}
+
+.user_info pre{
+	color:#fff;
+	margin:0;
+	padding:0;
+}
+
+#user_submenu a:hover {
+    color : #ff6600 !important;
+}
+
+#user_submenu li{
+    color:#fff;
+    padding:3px;
+    text-align: center;
+}
+#menu_container{
+    text-align: right;
+}
+
+#home_icon{
+    margin-top:5px;
+}
+#tickets{
+	margin:130px auto;
+	padding:0;
+    border-radius:2px;
+    box-shadow: 0 0 5px #f0fafb;
+}
+
+#tickets_header{
+    background-color: #264286;
+    border:2px solid #f0fafb;
+    border-radius: 0 0 8px 8px;
+    font-size:26px;
+    padding:10px;
+}
+
+#tickets_header_err{
+    background-color: #e04141;
+    border:2px solid #fffafb;
+    border-radius: 0 0 8px 8px;
+    font-size:26px;
+    padding:10px;
+}
+
+#admin_login_container{
+	background-color:#cacaca;
+	margin:20px auto;
+	border:1px solid #222;
+	box-shadow:0px 0px 7px #999;
+	border-radius:5px;
+	padding:10px;
+}
+#tbl_reserve td{text-align:center;}
+#tbl_reserve th{	text-align:center; background-color:#f2c533; color:#222;}
+

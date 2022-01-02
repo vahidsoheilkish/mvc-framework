@@ -1,0 +1,6 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteBase /homework
+RewriteCond %{REQUEST_URI} !\.(jpg|jpeg|png|JPEG|css|js|eot|ttf|gif|docx|pdf)$
+RewriteRule .* index.php [L]
